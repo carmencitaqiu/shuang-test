@@ -1,0 +1,47 @@
+/***系统主体部分***/
+.container {
+  min-height: 100vh;
+
+  /***系统头部***/
+  .contentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;
+    height: 48px;
+    color: #42495e;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: NotoSansSC;
+    line-height: 44px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    & > a {
+      color: #42495e;
+      text-decoration: underline;
+    }
+  }
+  .justify_center {
+    justify-content: center !important;
+  }
+
+  /***系统内容区域***/
+  .content {
+    display: flex;
+    flex: auto;
+    height: 100%;
+    // margin: 16px 24px;
+    background: #f0f0f0;
+    // min-height: 280px;
+    & > div {
+      width: 100%;
+    }
+  }
+  .footerContent {
+    height: 40px;
+    padding: 0 24px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
